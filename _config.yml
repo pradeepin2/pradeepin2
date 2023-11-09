@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Pradeep Kumar Saraswathi
+subtitle: Pradeep Kumar Saraswathi
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Pradeep Kumar Saraswathi is PMTS (UI) at salesforce with 17+ years of experience in building UI (Builders) with multiple UI technologies that builds experiences and AI/ML, Generative AI enthusiast. 
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://spradeep.com" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -24,18 +24,19 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: pradeep.png
+author: Pradeep Kumar Saraswathi
+author_bio: Hi, Pradeep Kumar Saraswathi is PMTS (UI) at salesforce with 17+ years of experience in building UI (Builders) with multiple UI technologies that builds experiences and AI/ML, Generative AI enthusiast. 
+
+author_email: "pradeepin2@gmail.com"
+author_location: United States of America
+author_website_url: "https://spradeep.com"
+typewrite-text: Learn building UI (Builders) that builds experiences and AI/ML, Generative AI 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
+            - company_name: Salesforce
               company_logo: google.png
               company_url: https://google.com
               designation: Software Engineer
