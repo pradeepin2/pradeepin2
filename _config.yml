@@ -107,7 +107,7 @@ linkedin_username: pradeepsaraswathi
 #mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
+getform_endpoint: 3aca0b03-29ac-4f1f-b320-e737cad02512
 #formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
