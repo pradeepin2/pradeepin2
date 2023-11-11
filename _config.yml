@@ -37,38 +37,55 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
             - company_name: Salesforce
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              company_logo: salesforce.png
+              company_url: https://salesforce.com
+              designation: PMTS (UI) Software Engineering
+              description: Working on Building Builder platform, CMS Platform and Digital experience platform that enables creation of Builders like Site Builders, Form Builders which allow delivering customer digital experiences.
+              experience: 2018 - 2023*
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Gainsight
+              company_logo: gainsight.png
+              company_url: https://www.gainsight.com/
+              designation: Software Engineering Architect (UI)
+              description: Worked on Building Customer success platform, Analytics platform that enables customer success teams to retain customers and reduce churn.
+              experience: 2014 - 2018
               visibility: true
+            - company_name: IVY comptech (Bwin.party)
+              company_logo: ivy.png
+              company_url: https://ivy.global
+              designation: Senior Software Engineer
+              description: Worked on Building Gaming platform, to enable HTML5 games that can by used by multi players.
+              experience: 2013 - 2014
+              visibility: true  
+            - company_name: Pramati
+              company_logo: pramati.png
+              company_url: https://pramati.com/
+              designation: Principle Software Engineer
+              description: Worked on Building Configuration Pricing and Quoting (CPQ) platform (Big Machines) which got acquired by Oracle Corp.
+              experience: 2010 - 2013
+              visibility: true 
+            - company_name: Zoho Corp
+              company_logo: zoho.png
+              company_url: https://www.zoho.com/
+              designation: Member Technical Staff
+              description: Worked on Building online Document Management platform.
+              experience: 2006 - 2010
+              visibility: true   
+
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: IIITH_25th-year-celebration.png
+                college_name: IIIT Hyderabad
+                college_url: https://www.iiit.ac.in/
+                college_degree: Diploma in AI/ML
+                description: Diploma in AI/ML
                 visibility: true
-
-# Projects
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - college_logo: RMK_Engineering_College_logo.png
+                college_name: R.M.K. Engineering college
+                college_url: https://www.rmkec.ac.in/2023/
+                college_degree: Electronics & Instrumentation engineering
+                description: Bachelor of Engineering
                 visibility: true
 
 # social links
