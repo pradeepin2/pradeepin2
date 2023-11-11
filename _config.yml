@@ -12,12 +12,16 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    - text: UI
+      url: /ui
+    - text: CMS
+      url: /cms
+    - text: Site Builders
+      url: /site-builders 
+    - text: Web components
+      url: /web-components  
+    - text: UI Frameworks
+      url: /web-components    
     - text: Contact
       url : /contact
 
