@@ -76,6 +76,9 @@ author_work_experiences:
               experience: 2006 - 2010
               visibility: true   
 
+author_project_details:
+              - visibility: false
+              - visibility: false
 
 # Education
 author_education_details:
