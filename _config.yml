@@ -21,7 +21,9 @@ urls:
     - text: Web components
       url: /web-components  
     - text: UI Frameworks
-      url: /web-components    
+      url: /web-components   
+    - text: JSON Schema
+      url: /json-schema   
     - text: Contact
       url : /contact
 
