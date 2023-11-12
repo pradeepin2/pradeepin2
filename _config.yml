@@ -16,10 +16,8 @@ urls:
       url: /ui
     - text: CMS
       url: /cms
-    - text: Site Builders
-      url: /site-builders 
-    - text: Web components
-      url: /web-components  
+    - text: Builders
+      url: /site-builders  
     - text: Frameworks
       url: /ui-frameworks
     - text: JSON Schema
@@ -79,6 +77,20 @@ author_work_experiences:
               visibility: true   
 
 author_project_details:
+              - project_title: Patent Filed for my work in Builder Platform
+                project_info: Patent Filed for Creating a WYSIWYG Canvas in Builder to build UI / Experiences
+                project_description: Almost all WYSIWYG Builders (site builders, email builders, content builders) are tied to a specific front-end component library or technology. Consumers of the builder need to adapt to the technology of choice if they want to be able to leverage the builder’s preview and design-mode functionalities, like selection, drag-and-drop, clone, and delete. The innovation led to a new dimension of expanding the capabilities
+                visibility: true  
+              - project_title: Member of w3c, w3.org in Web components
+                project_info: Member of Web Components Community Group in https://www.w3.org/
+                project_description: Member of Web Components Community Group in https://www.w3.org/ in collaborating Web components standards.
+                project_url: https://www.w3.org/groups/cg/webcomponents/
+                visibility: true 
+              - project_title: Member of w3c, w3.org in Web Platform
+                project_info: Member of Web Platform Community Group in https://www.w3.org/
+                project_description: Member of Web Platform Community Group in https://www.w3.org/ in collaborating Web Platform standards.
+                project_url: https://www.w3.org/groups/cg/wicg/
+                visibility: true   
               - project_title: Patent Filed for my work in Builder Platform
                 project_info: Patent Filed for Creating a WYSIWYG Canvas in Builder to build UI / Experiences
                 project_description: Almost all WYSIWYG Builders (site builders, email builders, content builders) are tied to a specific front-end component library or technology. Consumers of the builder need to adapt to the technology of choice if they want to be able to leverage the builder’s preview and design-mode functionalities, like selection, drag-and-drop, clone, and delete. The innovation led to a new dimension of expanding the capabilities
