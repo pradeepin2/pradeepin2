@@ -77,8 +77,15 @@ author_work_experiences:
               visibility: true   
 
 author_project_details:
-              - visibility: false
-              - visibility: false
+              - project_title: Patent 
+                project_info: Patent Filed for Creating a Platform-agnostic WYSIWYG Canvas in Builder to build UI / Experiences
+                project_description: Almost all WYSIWYG Builders (site builders, email builders, content builders) are tied to a specific front-end component library or technology. Consumers of the builder need to adapt to the technology of choice if they want to be able to leverage the builder’s preview and design-mode functionalities, like selection, drag-and-drop, clone, and delete. The novel innovation allows for partners to BYOC (Bring Your Own Canvas) and build front-end renditions in whatever technology they see fit.
+                visibility: true
+              - project_title: 
+                project_info:
+                project_description:
+                project_url:
+                visibility: true
 
 # Education
 author_education_details:
