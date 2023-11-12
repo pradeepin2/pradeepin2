@@ -20,8 +20,8 @@ urls:
       url: /site-builders 
     - text: Web components
       url: /web-components  
-    - text: UI Frameworks
-      url: /web-components   
+    - text: Frameworks
+      url: /ui-frameworks
     - text: JSON Schema
       url: /json-schema   
     - text: Contact
