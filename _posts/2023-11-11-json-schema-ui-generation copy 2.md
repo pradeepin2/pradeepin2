@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Welcome to devlopr-jekyll !"
-summary: "Getting Started using devlopr-jekyll"
-author: johndoe
-date: '2019-05-22 14:35:23 +0530'
-category: jekyll
+title:  "Generating UI from JSON schema !"
+summary: "Generating UI from JSON schema"
+author: spradeep
+date: '2023-11-11 14:35:23 +0530'
+category: JSON schema, UI
 thumbnail: /assets/img/posts/code.jpg
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
-permalink: /blog/welcome-to-devlopr-jekyll/
+keywords: json schema, UI generation, React forms, forms.io, angular forms, Json schema
+permalink: /blog/json-schema-ui-generation/
 usemathjax: true
 ---
 
