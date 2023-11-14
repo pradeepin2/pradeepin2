@@ -43,7 +43,8 @@ customElements.define('my-first-web-component', MyFirstWebComponent);
 
 3. If you want to try online fork [this repo](https://github.com/pradeepin2/create-web-component/tree/main).  and deploy it as a github page
 
-https://github.com/pradeepin2/create-web-component/tree/main
+[https://github.com/pradeepin2/create-web-component/tree/main](https://github.com/pradeepin2/create-web-component/tree/main)
+
 
 
 
