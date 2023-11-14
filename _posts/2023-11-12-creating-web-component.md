@@ -5,7 +5,7 @@ summary: "Creating Web Component and deploying to github page"
 author: spradeep
 date: '2023-11-12 14:35:23 +0530'
 category: Web Component, UI, github page
-thumbnail: /assets/img/posts/code.jpg
+thumbnail: /assets/img/posts/custom-elements_512x512.png
 keywords: web component, create web component, javascript, Web component , github, static page
 permalink: /blog/creating-web-component-github-page/
 usemathjax: true
