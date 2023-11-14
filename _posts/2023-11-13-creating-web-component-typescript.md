@@ -47,7 +47,7 @@ document.body.innerHTML = `<my-first-web-component></my-first-web-component>`
 
 3. Doing this will not work. As Typescript needs to be compiled into Javascript.
 
-4. So load the library that compiles the typescript and loads Javascript.
+4. So load the library that compiles the typescript and loads Javascript. [Code is here](https://github.com/pradeepin2/create-web-component-typescript)
 
 5. So try online fork [this repo](https://github.com/pradeepin2/create-web-component-typescript) and deploy it as a github page to see web component created in Typescript
 
