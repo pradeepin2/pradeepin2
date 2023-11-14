@@ -5,35 +5,51 @@ summary: "Creating Web Component in Typescript and deploying to github page"
 author: spradeep
 date: '2023-11-13 14:35:23 +0530'
 category: Web Component, UI, github page, Typescript
-thumbnail: /assets/img/posts/code.jpg
 keywords: web component, create web component, javascript, Web component , github, static page, Typescript
 permalink: /blog/creating-web-component-typescript-github-page/
 usemathjax: true
 ---
 
+Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+TypeScript is a free and open-source high-level programming language that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Here is an example of web component in Typescript, The web component can be deployed in github page and source code is available for fork.
 
-Jekyll also offers powerful support for code snippets:
+1. Create a Typescript file and define a class 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
 
-{% endhighlight %}
+```Typescript
+class MyFirstWebComponent extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `<h1>Hi Pradeep Kumar Saraswathi</h1> `;
+    }
+  }
+customElements.define('my-first-web-component', MyFirstWebComponent);
 
-or
+document.body.innerHTML = `<my-first-web-component></my-first-web-component>`
+```
+
+2. Create a html file to incluide Typescript code that creates a web component
 
 ```javascript
-var a = 1;
-var b = 2;
-function sum (num1,num2){
-  return num1+num2;
-}
-var result = sum(a,b);
+<!doctype html>
+<html>
+  <head>
+    <title>This is my first web component!</title>
+    <script type="text/typescript" src="script.ts"></script>
+  </head>
+  <body>
+    
+  </body>
+</html>
 ```
+
+3. Doing this will not work. As Typescript needs to be compiled into Javascript.
+
+4. So load the library that compiles the typescript and loads Javascript.
+
+5. So try online fork [this repo](https://github.com/pradeepin2/create-web-component-typescript) and deploy it as a github page to see web component created in Typescript
+
+[https://github.com/pradeepin2/create-web-component-typescript](https://github.com/pradeepin2/create-web-component-typescript)
 
