@@ -97,7 +97,7 @@ Fast, unopinionated, minimalist web framework for Node.js
     });
 
 
-(https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js)[https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js]
+[https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js](https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js)
 
 
 ### Code Reference:
