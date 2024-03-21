@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Client Side Rendering (SSR) Web components"
-summary: "Client Side Rendering (SSR) Web components"
+title:  "Client Side Rendering (CSR) Web components"
+summary: "Client Side Rendering (CSR) Web components"
 author: spradeep
 date: '2024-3-20 14:35:23 +0530'
 category: Client Side Rendering, CSR, Web Component, HTML Web Component, Javascript Web Component
 keywords: CSR, Client Side Rendering, web component, create web component, javascript, Web component 
-permalink: /blog/client-side-rendering-ssr-technique-github-page/
+permalink: /blog/client-side-rendering-technique-github-page/
 usemathjax: true
 ---
 
@@ -89,11 +89,11 @@ Fast, unopinionated, minimalist web framework for Node.js
     console.log(`Example Server side app running on: ${port}`);
     });
 
-    
+
 (https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.js)[https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.js]
   
  ### Code Reference:
  (https://github.com/pradeepin2/web-components-client-side-rendering)[https://github.com/pradeepin2/web-components-server-side-rendering/tree/main]
 
   
-This post can be read along with Server side rendering web components post. To get a good picture of difference between client side rendering and server side rendering 
+This post can be read along with (Server side rendering web components post)[https://spradeep.com/blog/client-side-rendering-ssr-technique-github-page/#/]. To get a good picture of difference between client side rendering and server side rendering (https://spradeep.com/blog/client-side-rendering-ssr-technique-github-page/#/)[https://spradeep.com/blog/client-side-rendering-ssr-technique-github-page/#/]
