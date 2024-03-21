@@ -96,4 +96,4 @@ Fast, unopinionated, minimalist web framework for Node.js
  (https://github.com/pradeepin2/web-components-client-side-rendering)[https://github.com/pradeepin2/web-components-server-side-rendering/tree/main]
 
   
-This post can be read along with Server side rendering web components post. To get a good picture of difference between client side rendering and server side rendering
+This post can be read along with Server side rendering web components post. To get a good picture of difference between client side rendering and server side rendering 
