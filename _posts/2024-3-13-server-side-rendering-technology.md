@@ -76,7 +76,6 @@ Fast, unopinionated, minimalist web framework for Node.js
 
 ## Rendering Webcomponent in Server before serving the request using Pupetter:
 
-  
 
     const express = require("express");
     const fs = require('fs');
@@ -85,17 +84,19 @@ Fast, unopinionated, minimalist web framework for Node.js
     const port = 4000;
     const content = fs.readFileSync("./ssr.html","utf-8").toString();
     app.get("/ssr", async(req,res) => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.setContent(content, {
-    waitUntil: ["domcontentloaded"],
-    });
-    const fullHTML = await page.content();
-    res.send(fullHTML);
+	    const browser = await puppeteer.launch();
+	    const page = await browser.newPage();
+	    await page.setContent(content, {
+				waitUntil: ["domcontentloaded"],
+		});
+	    const fullHTML = await page.content();
+	    res.send(fullHTML);
     });
     app.listen(port, ()=>{
-    console.log(`Example Server side app running on: ${port}`);
+	    console.log(`Example Server side app running on: ${port}`);
     });
+
+
 (https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js)[https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.js]
 
 
