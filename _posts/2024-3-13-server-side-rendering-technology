@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Server side rendering (SSR) technique"
-summary: "Server side rendering (SSR) technique"
+title:  "Server Side Rendering (SSR) Web components"
+summary: "Server Side Rendering (SSR) Web components"
 author: spradeep
 date: '2024-3-13 14:35:23 +0530'
 category: Server Side Rendering, SSR, Web Component, HTML Web Component, Javascript Web Component
@@ -10,55 +10,99 @@ permalink: /blog/server-side-rendering-ssr-technique-github-page/
 usemathjax: true
 ---
 
-Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
+# Server Side Rendering web components:
 
-TypeScript is a free and open-source high-level programming language that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript
+ <img src="/assets/img/posts/server-side-rendering-web-components.png" class="img-fluid">
+ 
+## Web components:
+ 
+Web Components are a set of web platform APIs that allow you to create reusable custom elements with encapsulated functionality. They are a collection of technologies that can be used together to create reusable, encapsulated, and interoperable HTML elements. These components can be used in web applications without the need for any additional frameworks or libraries.
 
-Here is an example of web component in Typescript, The web component can be deployed in github page and source code is available for fork.
+## Server Side Rendering:
+  
+Server Side Rendering (SSR) is a technique used in web development where the server generates the initial HTML for a web page and sends it to the client's browser, which then renders the page. This is in contrast to Client Side Rendering (CSR), where the initial HTML is minimal and the bulk of the page rendering is done by JavaScript in the client's browser.
 
-1. Create a Typescript file and define a class 
+ 
+## Puppeteer:
 
+Puppeteer is a Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol. Puppeteer runs in headless mode by default, but can be configured to run in full ("headful") Chrome/Chromium.
 
-```Typescript
-class MyFirstWebComponent extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `<h1>Hi Pradeep Kumar Saraswathi</h1> `;
+  
+## Express JS:
+ 
+Fast, unopinionated, minimalist web framework for Node.js  
+  
+
+## Sample Web component
+
+    <!DOCTYPE html>    
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components | SSR (Server side rendering, doesn't need Javascript)</title>
+    </head>
+    <body>
+    <custom-paragraph text="Custom Paragraph"></custom-paragraph>
+    </body>
+    <script>
+    class CustomParagraph extends HTMLElement {
+    constructor() {
+    super();
+    const text = this.getAttribute('text');
+    this.innerHTML = `
+    <template shadowrootmode="open">
+    <style>
+    p{
+    font-size: 65px;
+    font-weight: 400;
+    font-style: italic;
+    background-image: linear-gradient(to left, #007f4c, #53e3a7);
+    color: black ;
     }
-  }
-customElements.define('my-first-web-component', MyFirstWebComponent);
+    </style>
+    <p><slot></slot></p>
+    </template>
+    ${text}
+    `;
+    }
+    }
+    customElements.define("custom-paragraph", CustomParagraph);
+    </script>
+    </html>
 
-document.body.innerHTML = `<my-first-web-component></my-first-web-component>`
-```
+  
+  
+  
 
-2. Create a html file to incluide Typescript code that creates a web component
+## Rendering Webcomponent in Server before serving the request using Pupetter:
 
-```javascript
-<!doctype html>
-<html>
-  <head>
-    <title>This is my first web component!</title>
-    <script type="text/typescript" src="script.ts"></script>
-  </head>
-  <body>
-    
-  </body>
-</html>
-```
+  
 
-3. Doing this will not work. As Typescript needs to be compiled into Javascript.
+    const express = require("express");
+    const fs = require('fs');
+    const puppeteer = require("puppeteer");
+    const app = express();
+    const port = 4000;
+    const content = fs.readFileSync("./ssr.html","utf-8").toString();
+    app.get("/ssr", async(req,res) => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.setContent(content, {
+    waitUntil: ["domcontentloaded"],
+    });
+    const fullHTML = await page.content();
+    res.send(fullHTML);
+    });
+    app.listen(port, ()=>{
+    console.log(`Example Server side app running on: ${port}`);
+    });
 
-4. So load the library that compiles the typescript and loads Javascript. [Code is here](https://github.com/pradeepin2/create-web-component-typescript)
 
-5. So try online fork [this repo](https://github.com/pradeepin2/create-web-component-typescript) and deploy it as a github page to see web component created in Typescript
+Code Reference:
+[https://github.com/pradeepin2/web-components-server-side-rendering/tree/main](https://github.com/pradeepin2/web-components-server-side-rendering/tree/main)
 
-[https://github.com/pradeepin2/create-web-component-typescript](https://github.com/pradeepin2/create-web-component-typescript)
-
-https://meyerweb.com/eric/thoughts/2023/11/01/blinded-by-the-light-dom/
-https://codepen.io/davatron5000/pen/rNoRdex?editors=1010
-https://blog.jim-nielsen.com/2023/html-web-components/
-https://adactio.com/journal/20618
-https://news.ycombinator.com/item?id=19640226
-https://github.com/wisercoder/uibuilder
-https://news.ycombinator.com/item?id=21585774
-https://briangrinstead.com/blog/firefox-webcomponents/
-https://dev.to/andreslopezrm/wordpress-web-components-awesome-na8
+  
+  
+This technique can be applied on any web component, This is made possible with "Declarative Shadow DOM" Please checkout more details about Declarative Shadow DOM in my next post.
