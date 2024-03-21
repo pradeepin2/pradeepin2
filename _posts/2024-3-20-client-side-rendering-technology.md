@@ -10,8 +10,6 @@ permalink: /blog/client-side-rendering-ssr-technique-github-page/
 usemathjax: true
 ---
 
-# Server Side Rendering web components:
-
  <img src="/assets/img/posts/client-side-rendering-web-components.png" class="img-fluid">
  
 ## Web components:
