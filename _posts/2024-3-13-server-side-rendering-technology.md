@@ -69,7 +69,8 @@ Fast, unopinionated, minimalist web framework for Node.js
     customElements.define("custom-paragraph", CustomParagraph);
     </script>
     </html>
-(https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.html)[https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.html]
+    
+[https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.html](https://github.com/pradeepin2/web-components-server-side-rendering/blob/main/ssr.html)
   
   
   
