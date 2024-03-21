@@ -70,7 +70,7 @@ Fast, unopinionated, minimalist web framework for Node.js
     customElements.define("custom-paragraph", CustomParagraph);
     </script>
     </html>
-
+(https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.html)[https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.html]
   
 
 ## Rendering Webcomponents in Client served via Express JS:
@@ -90,7 +90,7 @@ Fast, unopinionated, minimalist web framework for Node.js
     app.listen(port, ()=>{
     console.log(`Example Server side app running on: ${port}`);
     });
-
+(https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.js)[https://github.com/pradeepin2/web-components-client-side-rendering/blob/main/csr.js]
   
  ### Code Reference:
  [https://github.com/pradeepin2/web-components-client-side-rendering]
