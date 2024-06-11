@@ -2,6 +2,25 @@
 
 <!-- Add the getform-endpoint in config.yml -->
 
+
+<div id="marketingForm" style="width:200px;height:200px;"></div>
+<script>
+  fetch('https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/landing-page/test123-MCEQULZI36LJGKVPIQAVU5527YR4').then((response) => {
+    return response.text();
+  })
+  .then((html) => {
+      var div = document.getElementById("marketingForm"); 
+      var iframe = document.createElement('iframe');
+
+div.appendChild(iframe);
+iframe.contentWindow.document.open();
+iframe.contentWindow.document.write(html);
+iframe.contentWindow.document.close();
+    
+  });
+
+</script>
+
 <iframe class="previewFrame" frameborder="0" tabindex="-1" title="Content Preview in desktop view" 
 src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/landing-page/test123-MCEQULZI36LJGKVPIQAVU5527YR4" style="height: 296.5px;"></iframe>
 
