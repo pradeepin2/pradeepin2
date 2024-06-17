@@ -13,7 +13,7 @@
 <input type="hidden" id="classname" name="classname" required maxlength="100" value="FormSubmission"/>
 <input type="hidden" id="method" name="method" required maxlength="100" value="triggerFormSubmissionPlatformEvent"/>
 <input type="hidden" id="isContinuation" name="isContinuation" required maxlength="100" value="false"/>
-<input type="hidden" id="params" name="params" value='{"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsss":"ddd"}}'/>
+<input type="hidden" id="params" name="params" value=""/>
   <div style="padding:0px 0px 0px 0px;
          ">
     <label for="firstname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">First name</label>
@@ -62,6 +62,12 @@
 </div>
   </form>
 
+  <script>
+    window.onload(function(){
+      document.getElementById('params').value = {"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsss":"ddd"}};
+    });
+
+  </script>
 
   <iframe name="my_iframe" src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false"></iframe>
 
