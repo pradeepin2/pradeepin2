@@ -1,5 +1,27 @@
 <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
-  <form>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.9.1/jsforce.min.js"></script>
+  <script>
+jsforce.browser.init({
+  clientId: '[ your Salesforce OAuth2 ClientID is here ]',
+  redirectUri: '[ your Salesforce registered redirect URI is here ]'
+});
+jsforce.browser.on('connect', function(conn) {
+  console.log("hello");
+  conn.query('SELECT Id, Name FROM Account', function(err, res) {
+    if (err) { return console.error(err); }
+    console.log(res);
+  });
+});
+  </script>
+</head>
+<body>
+  <button onclick="javascript:jsforce.browser.login();">Login</button>
+</body>
+
+
+
+  <form action="https://trialorgfarmforu.preview.localhost.sfdcdev.salesforce-experience.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=false&htmlEncode=false" enctype="multipart/form-data" method="POST"  target="_blank">
     <div>
   <div data-sfdc-cms-column="true"
   style="width:100.0%; vertical-align:top;"
