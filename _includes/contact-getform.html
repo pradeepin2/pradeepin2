@@ -26,16 +26,38 @@
 <script>
   function submitRequest(){
 
-    axios.post('https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false', {"namespace":"umaforms","classname":"FormSubmission","method":"triggerFormSubmissionPlatformEvent","isContinuation":false,"params":{"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsddsds":"dddd"}},"cacheable":false}, {
-    headers: {
-      'Content-Type': 'multipart/form-data'
-    }
-  }
-).then(function(){console.log("load the form")}).catch(function(){console.log("error");})
+
+fetch("https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false", { 
+      
+      // Adding method type 
+      method: "POST", 
+        
+      // Adding body or contents to send 
+      body: JSON.stringify({"namespace":"umaforms","classname":"FormSubmission","method":"triggerFormSubmissionPlatformEvent","isContinuation":false,"params":{"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsddsds":"dddd"}},"cacheable":false}), 
+        
+      // Adding headers to the request 
+      headers: { 
+          "Content-type": "application/json; charset=UTF-8"
+      } 
+  }) 
+    
+  // Converting to JSON 
+  .then(response => response.json()) 
+    
+  // Displaying results to console 
+  .then(json => console.log(json)); 
 
   }
+
+
+  
   
 </script>
+
+
+
+
+
 
 <form onclick="submitRequest()">
 <div>
