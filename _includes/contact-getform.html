@@ -6,13 +6,14 @@
     var po = document.createElement('script');
     po.type = 'text/javascript';
     po.async = true;
-    po.src = 'https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js';
+   
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(po, s);
-    po.onload = () => {
+    po.onload = function() { 
        // script has loaded, you can now use it safely
-       alert('thank me later')
+       alert('thank me later');
    }
+   po.src = 'https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js';
   })();
 </script>
 
