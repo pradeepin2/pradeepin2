@@ -1,69 +1,25 @@
 <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
 
 
-<script type="text/javascript">
-(function() {
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-    po.onload = function() { 
-       alert('thank me later');
-   }
-   po.src = 'https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js';
-  })();
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js">
-
-  
-
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-<script>
-  function submitRequest(){
-
-
-fetch("https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false", { 
-      
-      // Adding method type 
-      method: "POST", 
-        
-      // Adding body or contents to send 
-      body: JSON.stringify({"namespace":"umaforms","classname":"FormSubmission","method":"triggerFormSubmissionPlatformEvent","isContinuation":false,"params":{"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsddsds":"dddd"}},"cacheable":false}), 
-        
-      // Adding headers to the request 
-      headers: { 
-          "Content-type": "application/json; charset=UTF-8"
-      } 
-  }) 
-    
-  // Converting to JSON 
-  .then(response => response.json()) 
-    
-  // Displaying results to console 
-  .then(json => console.log(json)); 
-
-  }
-
-
-  
-  
-</script>
 
 
 
-
-
-
-<form onclick="submitRequest()">
+<form action="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
 <div>
   <div data-sfdc-cms-column="true"
   style="width:100.0%; vertical-align:top;"
 > 
+<input type="hidden" id="namespace" name="namespace" required maxlength="100" value="umaforms" />
+<input type="hidden" id="classname" name="classname" required maxlength="100" value="FormSubmission"/>
+<input type="hidden" id="method" name="method" required maxlength="100" value="triggerFormSubmissionPlatformEvent"/>
+<input type="hidden" id="isContinuation" name="isContinuation" required maxlength="100" value="false"/>
+<input type="hidden" id="params" name="params"  value='{
+  "formId": "MC6KPZGDGXC5EWPGZXDGZ7WKZIQE",
+  "pageReferenceId": "MCEQULZI36LJGKVPIQAVU5527YR4",
+  "formData": {
+    "dsddsds": "dddd"
+  }
+}'/>
   <div style="padding:0px 0px 0px 0px;
          ">
     <label for="firstname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">First name</label>
@@ -104,17 +60,16 @@ fetch("https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/
   <table role="presentation" style="border: 0; width: 100%; border-collapse: collapse; mso-table-lspace:0pt;mso-table-rspace:0pt;">
     <tr>
         <td style="mso-table-lspace:0pt;mso-table-rspace:0pt;">
-            <div style="margin-top:0rem;margin-bottom:0rem;margin-right:0rem;margin-left:0rem;text-align:center;word-break:break-word; border: 0; mso-border-alt: 0;">
-                <div style="width:auto;display: inline-block; border: 0; mso-border-alt: 0;">
-                    <a href="" target="_blank" style="direction:ltr;display:block;text-align:center;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;padding-top:0.5rem;padding-bottom:0.5rem;padding-right:1rem;padding-left:1rem;color:#ffffff;border-width:0.0625rem;border-style:solid;border-color:#0176d3;background-color:#0176d3;text-underline-color:#0176d3;border-radius:0.25rem;">
-                        <!--[if mso]><i style="background-color:#0176d3;text-underline-color:#0176d3;letter-spacing: 1rem;mso-text-raise: 0.5pt;mso-font-width: -100%;" hidden>&nbsp;</i><![endif]--><span style="mso-text-raise: 0.5pt;">Submit</span><!--[if mso]><i style="background-color:#0176d3;letter-spacing: 1rem;mso-text-raise: 0.5pt;mso-font-width: -100%;" hidden>&nbsp;</i><![endif]-->
-                    </a>
-                </div>
-            </div>
+            
         </td>
     </tr>
   </table>
 </div>
 </div>
   </form>
+
+
+  <iframe name="my_iframe" src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false"></iframe>
+
+
 </div>
