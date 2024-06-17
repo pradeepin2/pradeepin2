@@ -15,11 +15,25 @@
   })();
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js'">
+<script src="https://cdn.jsdelivr.net/npm/axios-endpoint@1.0.2/src/index.min.js">
 
 </script>
 
-<form>
+<script>
+  function submitRequest(){
+
+    axios.post('https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false', {"namespace":"umaforms","classname":"FormSubmission","method":"triggerFormSubmissionPlatformEvent","isContinuation":false,"params":{"formId":"MC6KPZGDGXC5EWPGZXDGZ7WKZIQE","pageReferenceId":"MCEQULZI36LJGKVPIQAVU5527YR4","formData":{"dsddsds":"dddd"}},"cacheable":false}, {
+    headers: {
+      'Content-Type': 'multipart/form-data'
+    }
+  }
+).then(function(){console.log("load the form")}).catch(function(){console.log("error");})
+
+  }
+  
+</script>
+
+<form onclick="submitRequest()">
 <div>
   <div data-sfdc-cms-column="true"
   style="width:100.0%; vertical-align:top;"
