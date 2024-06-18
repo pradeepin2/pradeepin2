@@ -27,6 +27,71 @@
 
 
 
+<form enctype='application/json' action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lpvforcesite/formsubmission/handlers" method="post" target="my_iframe">
+  <div>
+    <div data-sfdc-cms-column="true"
+    style="width:100.0%; vertical-align:top;"
+  > 
+  <input type="hidden" id="namespace" name="namespace" required maxlength="100" value="umaforms" />
+  <input type="hidden" id="classname" name="classname" required maxlength="100" value="FormSubmission"/>
+  <input type="hidden" id="method" name="method" required maxlength="100" value="triggerFormSubmissionPlatformEvent"/>
+  <input type="hidden" id="isContinuation" name="isContinuation" required maxlength="100" value="false"/>
+  <input type="hidden" id="params" name="params" value=""/>
+    <div style="padding:0px 0px 0px 0px;
+           ">
+      <label for="firstname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">First name</label>
+      <div>
+          <input type="text" id="firstname" name="firstname" required maxlength="100"  style="width:100%; direction:ltr;display:block;"/>
+      </div>
+  </div><div style="padding:0px 0px 0px 0px;
+           ">
+      <label for="lastname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">lastname</label>
+      <div>
+          <input type="text" id="lastname" name="lastname" required maxlength="100"  style="width:100%; direction:ltr;display:block;"/>
+      </div>
+  </div>
+  </div>
+  </div><div>
+    <div data-sfdc-cms-column="true"
+    style="width:100.0%; vertical-align:top;"
+  > 
+    <div style="padding:0px 0px 0px 0px;
+           ">
+      <label for="requesttype" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">Requesttype</label>
+      <div>
+          <select name="requesttype" id="requesttype" style="width:100%; height:calc(1.875rem + 2px); direction:ltr;display:block;">
+              <option value=""></option>
+              
+                  <option value="bug">Bug</option>
+              
+                  <option value="enhancement">enhancement</option>
+              
+          </select>
+      </div>
+  </div>
+  </div>
+  </div><div>
+    <div data-sfdc-cms-column="true"
+    style="width:100.0%; vertical-align:top;"
+  > 
+    <table role="presentation" style="border: 0; width: 100%; border-collapse: collapse; mso-table-lspace:0pt;mso-table-rspace:0pt;">
+      <tr>
+          <td style="mso-table-lspace:0pt;mso-table-rspace:0pt;">
+            <input type="submit" value="Submit2">
+          </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+    </form>
+
+
+
+
+
+
+
+
 
 <form enctype='application/json' action="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
 <div>
