@@ -27,8 +27,7 @@
 
 
 
-
-<form enctype='application/json' action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=false&htmlEncode=false" method="post" target="my_iframe">
+<form enctype='application/json' action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
   <div>
     <div data-sfdc-cms-column="true"
     style="width:100.0%; vertical-align:top;"
@@ -37,6 +36,7 @@
   <input type="hidden" id="classname" name="classname" required maxlength="100" value="FormSubmission"/>
   <input type="hidden" id="method" name="method" required maxlength="100" value="triggerFormSubmissionPlatformEvent"/>
   <input type="hidden" id="isContinuation" name="isContinuation" required maxlength="100" value="false"/>
+  <input type="hidden" id="cacheable" name="cacheable" required maxlength="100" value="false"/>
   <input type="hidden" id="params" name="params" value=""/>
     <div style="padding:0px 0px 0px 0px;
            ">
