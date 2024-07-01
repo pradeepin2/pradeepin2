@@ -2,10 +2,32 @@
 
 
 
-
-
   <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
-    <form action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
+  
+    <script>
+      function onMyFrameLoad() {
+        var iframe = document.getElementById("iframe");
+        iframe = iframe.document.documentElement
+        pre = iframe.document.querySelectorAll("pre")
+        if(pre && pre.innerHTML){
+          alert('failure');
+         
+        }else{
+          document.getElementById('form').style.display = 'none';
+          document.getElementById('success').style.display = 'block';
+          alert('success');
+        }
+        
+      };
+      </script>
+    
+    <p id="success" class="slds-p-vertical_medium">
+      Success
+  </p> 
+  <p id="failure" class="slds-p-vertical_medium">
+    Failure
+  </p> 
+    <form id="form" action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
   
       <div>
     <div data-sfdc-cms-column="true"
@@ -52,11 +74,8 @@
       <tr>
           <td style="mso-table-lspace:0pt;mso-table-rspace:0pt;">
               <div style="margin-top:0rem;margin-bottom:0rem;margin-right:0rem;margin-left:0rem;text-align:center;word-break:break-word; border: 0; mso-border-alt: 0;">
-                  <div style="width:auto;display: inline-block; border: 0; mso-border-alt: 0;">
-                      <a href="" target="_blank" style="direction:ltr;display:block;text-align:center;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;padding-top:0.5rem;padding-bottom:0.5rem;padding-right:1rem;padding-left:1rem;color:#ffffff;border-width:0.0625rem;border-style:solid;border-color:#0176d3;background-color:#0176d3;text-underline-color:#0176d3;border-radius:0.25rem;">
-                          <!--[if mso]><i style="background-color:#0176d3;text-underline-color:#0176d3;letter-spacing: 1rem;mso-text-raise: 0.5pt;mso-font-width: -100%;" hidden>&nbsp;</i><![endif]--><span style="mso-text-raise: 0.5pt;">Submit</span><!--[if mso]><i style="background-color:#0176d3;letter-spacing: 1rem;mso-text-raise: 0.5pt;mso-font-width: -100%;" hidden>&nbsp;</i><![endif]-->
-                      </a>
-                  </div>
+  
+                  <button type="submit" value="Send" class="btn btn-lg btn-dark">Submit</button>
               </div>
           </td>
       </tr>
@@ -64,8 +83,11 @@
   </div>
   </div>
     </form>
-    <iframe name="my_iframe" src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false"></iframe>
+    <iframe name="my_iframe" id="my_iframe" src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" onload="onMyFrameLoad(this)"></iframe>
   </div>
+
+
+
 
 
 
