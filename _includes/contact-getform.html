@@ -1,11 +1,11 @@
 <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
 
 
-
   <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
   
-    <script style="display:none;">
+    <script>
       function onMyFrameLoad() {
+        console.log("ddd")
         var iframe = document.getElementById("iframe");
         iframe = iframe.document.documentElement
         pre = iframe.document.querySelectorAll("pre")
@@ -19,6 +19,13 @@
         }
         
       };
+  
+      function onChange(){
+        console.log("hellll");
+        var paramsInput = document.getElementById('params');
+        var paramsValue = paramsInput.value();
+  
+      }
       </script>
     
     <p style="display:none;" id="success" class="slds-p-vertical_medium">
@@ -55,7 +62,7 @@
            ">
       <label for="Industryc" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:0.8125rem;line-height:1.5;font-weight:400;letter-spacing:normal;">Industry</label>
       <div>
-          <select name="Industryc" id="Industryc" style="width:100%; height:calc(1.875rem + 2px); direction:ltr;display:block;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;border:1px solid ';background-color:;color:#000000;">
+          <select name="Industryc" onchange="myFunction()" id="Industryc" style="width:100%; height:calc(1.875rem + 2px); direction:ltr;display:block;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;border:1px solid ';background-color:;color:#000000;">
               <option value=""></option>
               
                   <option value="Agriculture">Agriculture</option>
@@ -142,14 +149,27 @@
     </table>
   </div>
   </div>
+<<<<<<< HEAD
+      <input type="hidden" name="cacheable" value="false" />
+      <input type="hidden" name="classname" value="FormSubmission" />
+      <input type="hidden" name="isContinuation" value="false" />
+      <input type="hidden" name="method" value="triggerFormSubmissionPlatformEvent" />
+      <input type="hidden" name="namespace" value="umaforms" />
+      <input type="hidden" id="params" name="params" value="{'formData':'','formId':'MCCQCS36ER7FGNHD5GDPGNFCFSXQ','pageReferenceId':'MCBDEMTKKWZFHJLOIUBKSTO4ZOPA'}" />
+=======
       <input type="hidden" name="cacheable" value="false" />
       <input type="hidden" name="classname" value="FormSubmission" />
       <input type="hidden" name="isContinuation" value="false" />
       <input type="hidden" name="method" value="triggerFormSubmissionPlatformEvent" />
       <input type="hidden" name="namespace" value="umaforms" />
       <input type="hidden" name="params" value="{'formData':'','formId':'MCCQCS36ER7FGNHD5GDPGNFCFSXQ','pageReferenceId':'MCBDEMTKKWZFHJLOIUBKSTO4ZOPA'}" />
+>>>>>>> 48ba08a4c4a67719703b16897d0c7d484041fdf0
     </form>
+<<<<<<< HEAD
+    <iframe name="my_iframe" id="my_iframe" src="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" onload="onMyFrameLoad()"></iframe>
+=======
     <iframe name="my_iframe" id="my_iframe" src="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" onload="onMyFrameLoad(this)"></iframe>
+>>>>>>> 48ba08a4c4a67719703b16897d0c7d484041fdf0
   </div>
 
 
