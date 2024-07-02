@@ -3,29 +3,24 @@
 
   <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
   
-    <script language="javascript" type="text/javascript">
-      function onMyFrameLoad() {
-        console.log("ddd");
-        var iframe = document.getElementById("my_iframe");
-        pre = iframe.document.querySelectorAll("pre");
-        if(pre && pre.innerHTML){
-          alert('failure');
-        }else{
-          document.getElementById('form').style.display = 'none';
-          document.getElementById('success').style.display = 'block';
-          alert('success');
-        }
-      };
-      </script>
+    script language="javascript" type="text/javascript">
+    function onMyFrameLoad() {
+      console.log("ddd");
+      var iframe = document.getElementById("my_iframe");
+        document.getElementById('form').style.display = 'none';
+        document.getElementById('success').style.display = 'block';
+      
+    };
+    </script>
 
-      <script language="javascript" type="text/javascript">
-      function onChange() {
-        console.log("hellll");
-        var paramsInput = document.getElementById('params');
-        var paramsValue = paramsInput.value();
-  
-      };
-      </script>
+    <script language="javascript" type="text/javascript">
+    function onChange() {
+      console.log("hellll");
+      var paramsInput = document.getElementById('params');
+      var paramsValue = paramsInput.value();
+
+    };
+    </script>
     
     <p style="display:none;" id="success" class="slds-p-vertical_medium">
       Success
