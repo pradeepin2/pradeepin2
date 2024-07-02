@@ -4,7 +4,7 @@
 
   <div class="responsive-container" style="display:table; width:100%;" data-sfdc-cms-section="true">
   
-    <script>
+    <script style="display:none;">
       function onMyFrameLoad() {
         var iframe = document.getElementById("iframe");
         iframe = iframe.document.documentElement
@@ -21,10 +21,10 @@
       };
       </script>
     
-    <p id="success" class="slds-p-vertical_medium">
+    <p style="display:none;" id="success" class="slds-p-vertical_medium">
       Success
   </p> 
-  <p id="failure" class="slds-p-vertical_medium">
+  <p style="display:none;" id="failure" class="slds-p-vertical_medium">
     Failure
   </p> 
     <form id="form" action="https://trialorgfarmforu.my.localhost.sfdcdev.site.com:7443/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" method="post" target="my_iframe">
@@ -33,17 +33,11 @@
     <div data-sfdc-cms-column="true"
     style="width:100.0%; vertical-align:top;"
   > 
-    <div style="padding:0px 0px 0px 0px;
+    <div style="padding:0rem 0rem 0rem 0rem;
            ">
-      <label for="firstname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">First name</label>
+      <label for="firstname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:0.8125rem;line-height:1.5;font-weight:400;letter-spacing:normal;">firstname</label>
       <div>
-          <input type="text" id="firstname" name="firstname" required maxlength="100"  style="width:100%; direction:ltr;display:block;"/>
-      </div>
-  </div><div style="padding:0px 0px 0px 0px;
-           ">
-      <label for="lastname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">lastname</label>
-      <div>
-          <input type="text" id="lastname" name="lastname" required maxlength="100"  style="width:100%; direction:ltr;display:block;"/>
+          <input type="text" id="firstname" name="firstname" required maxlength="100"  style="width:100%; direction:ltr;display:block;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;border:1px solid ;background-color:;color:#000000;"/>
       </div>
   </div>
   </div>
@@ -51,16 +45,82 @@
     <div data-sfdc-cms-column="true"
     style="width:100.0%; vertical-align:top;"
   > 
-    <div style="padding:0px 0px 0px 0px;
+    <div style="padding:0rem 0rem 0rem 0rem;
            ">
-      <label for="requesttype" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;">Requesttype</label>
+      <label for="lastname" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:0.8125rem;line-height:1.5;font-weight:400;letter-spacing:normal;">lastname</label>
       <div>
-          <select name="requesttype" id="requesttype" style="width:100%; height:calc(1.875rem + 2px); direction:ltr;display:block;">
+          <input type="text" id="lastname" name="lastname" required maxlength="100"  style="width:100%; direction:ltr;display:block;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;border:1px solid ;background-color:;color:#000000;"/>
+      </div>
+  </div><div style="padding:0rem 0rem 0rem 0rem;
+           ">
+      <label for="Industryc" style="direction:ltr;display:block;text-align:left;margin:0;mso-padding-alt:0;text-decoration:none;font-family:'Arial','Helvetica','sans-serif';font-size:0.8125rem;line-height:1.5;font-weight:400;letter-spacing:normal;">Industry</label>
+      <div>
+          <select name="Industryc" id="Industryc" style="width:100%; height:calc(1.875rem + 2px); direction:ltr;display:block;font-family:'Arial','Helvetica','sans-serif';font-size:1rem;line-height:1.5;font-weight:400;letter-spacing:normal;border:1px solid ';background-color:;color:#000000;">
               <option value=""></option>
               
-                  <option value="bug">Bug</option>
+                  <option value="Agriculture">Agriculture</option>
               
-                  <option value="enhancement">enhancement</option>
+                  <option value="Apparel">Apparel</option>
+              
+                  <option value="Banking">Banking</option>
+              
+                  <option value="Biotechnology">Biotechnology</option>
+              
+                  <option value="Chemicals">Chemicals</option>
+              
+                  <option value="Communications">Communications</option>
+              
+                  <option value="Construction">Construction</option>
+              
+                  <option value="Consulting">Consulting</option>
+              
+                  <option value="Education">Education</option>
+              
+                  <option value="Electronics">Electronics</option>
+              
+                  <option value="Energy">Energy</option>
+              
+                  <option value="Engineering">Engineering</option>
+              
+                  <option value="Entertainment">Entertainment</option>
+              
+                  <option value="Environmental">Environmental</option>
+              
+                  <option value="Finance">Finance</option>
+              
+                  <option value="Food &amp; Beverage">Food &amp; Beverage</option>
+              
+                  <option value="Government">Government</option>
+              
+                  <option value="Healthcare">Healthcare</option>
+              
+                  <option value="Hospitality">Hospitality</option>
+              
+                  <option value="Insurance">Insurance</option>
+              
+                  <option value="Machinery">Machinery</option>
+              
+                  <option value="Manufacturing">Manufacturing</option>
+              
+                  <option value="Media">Media</option>
+              
+                  <option value="Not For Profit">Not For Profit</option>
+              
+                  <option value="Other">Other</option>
+              
+                  <option value="Recreation">Recreation</option>
+              
+                  <option value="Retail">Retail</option>
+              
+                  <option value="Shipping">Shipping</option>
+              
+                  <option value="Technology">Technology</option>
+              
+                  <option value="Telecommunications">Telecommunications</option>
+              
+                  <option value="Transportation">Transportation</option>
+              
+                  <option value="Utilities">Utilities</option>
               
           </select>
       </div>
@@ -85,7 +145,6 @@
     </form>
     <iframe name="my_iframe" id="my_iframe" src="https://dsg000001ypmb2ag.test1.my.pc-rnd.site.com/lp/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false" onload="onMyFrameLoad(this)"></iframe>
   </div>
-
 
 
 
