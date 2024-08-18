@@ -30,7 +30,7 @@ IEEE (Institute of Electrical and Electronics Engineers): As a Senior member con
 
 OWASP (Open Web Application Security Project): As a professional member involves developing web security standards, emphasizing the importance of secure application development .
 
-ACM (Association for Computing Machinery): Involved as a professional member highlights your commitment to the computing community and the advancement of computing as a science and profession.
+ACM (Association for Computing Machinery): Involved as a professional member highlights my commitment to the computing community and the advancement of computing as a science and profession.
 
 
 INDUSTRY AWARDS FOR MY CONTRIBUTIONS
