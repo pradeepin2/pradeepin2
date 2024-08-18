@@ -16,8 +16,8 @@ I have been passionate about building web based user interfaces and applications
 
 JUDGE FOR PRESTIGIOUS INDUSTRY AWARDS
 
-Distinguished judge for one of the most popular hackathons, LA Hacks. This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. (https://lahacks.com/) with 190+projects and participation of 1000+members.
-Technical Judge for popular hackathons, This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. Davis Hacks (https://hackdavis.io/event) where more than 100+projects and participation 500+members
+Distinguished judge for one of the most popular hackathons, LA Hacks (Hackathon by University of California, LA). This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. with 190+projects and participation of 1000+members.
+Technical Judge for popular hackathons, This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. Davis Hacks (https://hackdavis.io/event, Hackathon by University of California, Davis) where more than 100+projects and participation 500+members
 Judge for Globee® Awards for Disruptors credential from Globee Awards! that requires them to leverage their expertise to assess the quality, relevance, and compliance of these submissions, while also contributing their knowledge through mentoring, advising, or participating in decision-making. Their role is crucial in shaping standards and practices within their industry, underscoring the impact of their work on business and professional growth. This credential serves as a formal recognition of their commitment and significant contributions to their field.
 
 
