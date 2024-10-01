@@ -1,10 +1,10 @@
 $(document).ready(()=> modeSwitcher() )
 
 if ( !localStorage.getItem('color-theme') ){
-	document.documentElement.setAttribute('data-theme', 'dark');
+	document.documentElement.setAttribute('data-theme', 'light');
 }
 else{
-	document.documentElement.setAttribute('data-theme', localStorage.getItem('color-theme'));
+	document.documentElement.setAttribute('data-theme', 'light');
 }
 
 /**
@@ -35,7 +35,7 @@ function modeSwitcher() {
 			localStorage.setItem('color-theme', 'light');
 		} else {
 			document.documentElement.setAttribute('data-theme', 'dark');
-			localStorage.setItem('color-theme', 'dark');
+			localStorage.setItem('color-theme', 'light');
 		}
         
     });
