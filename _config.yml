@@ -1,10 +1,10 @@
-title: Pradeep Kumar Saraswathi
-subtitle: Pradeep Kumar Saraswathi
+title: devlopr
+subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
-Hi, I am Pradeep Kumar Saraswathi a globally renowned expert in Building Advanced Digital Platforms and Artificial Integration into Digital platforms with over 18 years of experience across B2B (Business-to-Business), B2C (Business-to-Consumer) and SaaS (Software as a Service) Industries and Technology. Pradeep possesses in-depth knowledge in architecting, developing, and implementing web-based user interfaces and advanced digital platforms, including Digital Experience Platforms, Content Management Platforms, and Analytics Platforms. His expertise drives digital transformation by revolutionizing how businesses interact with customers, ultimately creating significant competitive advantages in today's digital landscape. 
+  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "https://spradeep.com" 
-baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -12,16 +12,12 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: UI
-      url: /ui
-    - text: CMS
-      url: /cms
-    - text: Builders
-      url: /site-builders  
-    - text: Frameworks
-      url: /ui-frameworks
-    - text: JSON Schema
-      url: /json-schema   
+    - text: Blog
+      url: /blog
+    - text: Gallery
+      url: /gallery
+    - text: Shop
+      url : /shop
     - text: Contact
       url : /contact
 
