@@ -12,12 +12,24 @@ urls:
       url: /
     - text: Experience
       url: /#/experience
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    - text: Education
+      url: /#/education
+    - text: Awards
+      url : /#/Awards
+    - text: Publications and Patents
+      url : /#/Publications 
+    - text: Engagements
+      url : /#/Engagements
+    -text: Featured
+      url : /#/Featured
+   -text: Gallery
+      url : /#/Featured 
+   -text: Blog
+      url : /#/Featured  
+
+
+
+
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
