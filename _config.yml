@@ -15,7 +15,7 @@ urls:
     - text: Education
       url: /#education
     - text: Awards
-      url : /#/Awards
+      url : /#awards
     - text: Publications and Patents
       url : /#/Publications 
     - text: Engagements
