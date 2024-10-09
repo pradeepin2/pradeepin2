@@ -20,11 +20,11 @@ urls:
       url : /#/Publications 
     - text: Engagements
       url : /#/Engagements
-    -text: Featured
+    - text: Featured
       url : /#/Featured
-   -text: Gallery
+    - text: Gallery
       url : /#/Featured 
-   -text: Blog
+    - text: Blog
       url : /#/Featured  
 
 
