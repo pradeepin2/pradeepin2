@@ -114,33 +114,13 @@ layout: default
      </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-      <h1 class="card-title">Experience & Contributions</h1>
+      <h1 class="card-title">Contributions</h1>
       <div class="row" id="project-card">
         <p>Currently, I hold position as the Principal Member of Technical Staff (PMTS) in Software Engineering at Salesforce. In my principal role, I am responsible for development of advanced digital platforms, specifically the Digital Experience Platform at Salesforce, enabling businesses to build digital experiences with clicks, not code. my work impacts millions of users monthly and supports billions of registered users, driving over a  billion page views each month, showcasing my pivotal role in shaping the future of digital interactions at scale.</p> 
         <p>Before joining Salesforce, I was an User Interface Architect at Gainsight, where I was responsible for the UI Software Architecture of Gainsight's Digital Analytics and Data Processing platforms, where his contributions were instrumental in shaping Gainsight’s platforms, significantly improving their functionality and impact on customer engagement and satisfaction.	I have been integral and played crucial role as part of a successful start-up to unicorn (valued at over $1 billion), from inception to acquisition.</p>
         <p>Alongside my corporate commitments, I am passionate about sharing his knowledge and experience in Digital experiences technology and AI Integration. I hold a patent for my innovation at work in "Creating a Platform-agnostic WYSIWYG (what you see is what you get) Canvas". Which is an innovative methodology to enable customers to create their Digital experiences like Email, Website, Apps  using Digital experience platform with clicks.  I am a member of W3C representing Salesforce in driving web standards. I have applied for patent "JSON SCHEMA FOR ENHANCED CONTENT GENERATION WITH LLM INTEGRATION" for Integration of AI into Digital experience platform, which enables customers to create Digital experiences like Email, SMS, Forms using Artificial Intelligence in Digital experience platform.</p>
       </div>
       <br/>
-      <h1 class="card-title">Patents</h1>
-      <br />
-      {% for project in site.author_project_details %} {% if project.visibility
-      == true %}
-      <div class="row" id="project-card">
-        <div class="col-md-12 center">
-          <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info}}</h6>
-          <p class="experience-desc">{{ project.project_description }}</p>
-          {% if project.project_url %}
-          <p>
-            <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
-            >
-          </p>
-          {% endif %}
-        </div>
-      </div>
-      <br />
-      {% endif %} {% endfor %}
     </div>
     {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
