@@ -13,7 +13,7 @@ urls:
     - text: About
       url: /about
     - text: Experience
-      url: /experience
+      url: /#/experience
     - text: Gallery
       url: /gallery
     - text: Shop
