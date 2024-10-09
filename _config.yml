@@ -11,9 +11,9 @@ urls:
     - text: Home
       url: /
     - text: Experience
-      url: /#/experience
+      url: /#experience
     - text: Education
-      url: /#/education
+      url: /#education
     - text: Awards
       url : /#/Awards
     - text: Publications and Patents
