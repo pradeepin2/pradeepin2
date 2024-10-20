@@ -1,9 +1,5 @@
 
-I am Pradeep Kumar Saraswathi
-
-User Interface Architect and Thought Leader in Building Advanced Digital Platforms
-
-I am Pradeep Kumar Saraswathi (https://spradeep.com/about/#/), an User Interface Architect and leader in building digital platforms and AI Integration. Currently, I hold the position of PMTS Software Engineering at Salesforce
+I am Pradeep Kumar Saraswathi, Global expert in Building Advanced Digital Platforms and Artificial Integration into Digital platforms with over 18 years of experience across B2B (Business-to-Business), B2C (Business-to-Consumer) and SaaS (Software as a Service) Industries and Technology. An User Interface Architect and leader in building digital platforms and AI Integration. Currently, I hold the position of PMTS Software Engineering at Salesforce
 
 A passionate and results-oriented Principal software engineer (PMTS) with over 18 years of experience in architecting, developing and implementing web based user interfaces and platforms like AI Integration, Digital experience platform, Content Management Platform, Analytics Platform, Gaming platform, Storage and Collaboration platform.
 
