@@ -17,13 +17,13 @@ urls:
     - text: Awards
       url : /#awards
     - text: Publications and Patents
-      url : /#/Publications 
+      url : /#publications 
     - text: Engagements
       url : /#/Engagements
     - text: Featured
-      url : /#/Featured
+      url : /#gallery
     - text: Gallery
-      url : /#/Featured 
+      url : /#gallery 
     - text: Blog
       url : /#/Featured  
 
