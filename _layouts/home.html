@@ -182,8 +182,8 @@ layout: default
         <div class="col-md-10">
           <h4 class="experience-title">{{ exp.designation }}</h4>
           <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
           <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+          <p class="experience-desc">{{ exp.description }}</p>
         </div>
       </div>
       {% endif %} {% endfor %}
@@ -308,9 +308,7 @@ layout: default
       </div>
     </div>
     <div class="card">
-      <div class="row d-flex justify-content-center">
-              <div class="col-10 m10">
-                      <div class="card">
+      
                               <h1 name="publications" id="publications" class="card-title">Publications</h1>
                               <br />
                               <div class="row">
@@ -328,14 +326,9 @@ layout: default
                                 </div>
                               </div>
                               <br />
-                      </div>
-              </div>
-      </div>
     </div>
     <div class="card">
-      <div class="row d-flex justify-content-center">
-              <div class="col-10 m10">
-                      <div class="card">
+    
                               <h1 name="gallery" id="gallery" class="card-title">Awards Gallery </h1>
                               <img
                               src="{{site.url}}{{site.baseurl}}/assets/img/gallery/GRA-AWARD-PRADEEP-KUMAR-Saraswathi.png"
@@ -350,9 +343,6 @@ layout: default
                             <img src="{{site.url}}{{site.baseurl}}/assets/img/gallery/Pradeep-kumar-saraswathi-Marcom-award.jpeg"
                             alt="Pradeep Kumar Saraswathi Holding Marcom Award for Excellence in User Interface Architecture in Building No-code/Low-code Digital Experience Platforms and AI Integration"
                           />"
-                      </div>
-              </div>
-      </div>
     </div>
   </div>
 </div>
