@@ -77,7 +77,12 @@ author_work_experiences:
               company_logo: zoho.png
               company_url: https://www.zoho.com/
               designation: Member Technical Staff
-              description: Worked on Building online Document Management platform.
+              description: Worked on Building a web based content storage and collaboration platform designed for teams to store, share, manage and work together on files of any size. The product is called Zoho Work Drive, which helps customers store, share, manage and work together on files of any size. Developed and Implemented components like File uploader that can support files of any size with intuitive user experience in a faster, scalable and secure approach. I was the first developer in building this platform which has grown into multiple teams now.
+                              - I was initial developer in building web based content storage and collaboration platforms (Zoho Workdrive) at Zoho. 
+                              - Implemented a mechanism for upload files on the web with a progress indicator while uploading the file, which had a significant impact on improving customer experience for customers using zoho drive.
+                              - Developed a mechanism to detect uploaded files that have recursive folders to prevent hacking the platform.
+                              - Developed a Folder hierarchy user interface that helps customers to organize the files uploaded and collaborate effectively using web based content storage and collaboration platforms.
+                              - Internally at Zoho, I have participated in making sure Zoho work drive follows Open Worldwide Application Security Project guidelines of security. 
               experience: 2006 - 2010
               visibility: true   
 
