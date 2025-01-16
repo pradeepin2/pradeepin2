@@ -14,16 +14,8 @@ urls:
       url: /#experience
     - text: Education
       url: /#education
-    - text: Awards
-      url : /#awards
     - text: Publications and Patents
-      url : /#publications 
-    - text: Engagements
-      url : /#/Engagements
-    - text: Featured
-      url : /#gallery
-    - text: Gallery
-      url : /#gallery 
+      url : /#publications
     - text: Blog
       url : /#/Featured  
 

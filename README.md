@@ -16,8 +16,6 @@ Distinguished judge for one of the most popular hackathons, LA Hacks (Hackathon 
 
 Technical Judge for popular hackathons, This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. Davis Hacks (https://hackdavis.io/event, Hackathon by University of California, Davis) where more than 100+projects and participation 500+members
 
-Judge for Globee® Awards for Disruptors credential from Globee Awards! that requires them to leverage their expertise to assess the quality, relevance, and compliance of these submissions, while also contributing their knowledge through mentoring, advising, or participating in decision-making. Their role is crucial in shaping standards and practices within their industry, underscoring the impact of their work on business and professional growth. This credential serves as a formal recognition of their commitment and significant contributions to their field.
-
 
 TECHNICAL CONTRIBUTOR TO PRESTIGIOUS ORGANIZATIONS
 W3C (World Wide Web Consortium): Actively contributed to developing web standards as a professional member, ensuring that web technologies remain accessible, ethical, and secure .
@@ -28,12 +26,6 @@ OWASP (Open Web Application Security Project): As a professional member involves
 
 ACM (Association for Computing Machinery): Involved as a professional member highlights my commitment to the computing community and the advancement of computing as a science and profession.
 
-
-INDUSTRY AWARDS FOR MY CONTRIBUTIONS
-
-I've been honored with the 2024 Business Titan Awards Technical Professional of the Year for For Excellence in User Interface Architect and Thought Leadership in Building Advanced Digital Platforms 🌟
-
-I've been honored with the 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐀𝐜𝐡𝐢𝐞𝐯𝐞𝐫𝐬' 𝐀𝐰𝐚𝐫𝐝 for For Excellence in User Interface Architect and Thought Leadership in Building Advanced Digital Platforms 🌟 This award recognizes outstanding professional achievement and contributions towards nation-building.
 
 
 Key Highlights:
